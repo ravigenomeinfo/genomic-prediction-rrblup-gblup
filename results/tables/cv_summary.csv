@@ -1,0 +1,15 @@
+"scenario","model","train_size","r","r_tbv","rmse","slope","r_sd"
+"leave_cluster_out","gblup",NA,0.37,0.496,1.437,1.309,0.013
+"random_kfold","gblup",NA,0.412,0.567,1.371,1.023,0.064
+"leave_cluster_out","rrblup",NA,0.37,0.496,1.437,1.309,0.013
+"random_kfold","rrblup",NA,0.412,0.567,1.371,1.023,0.064
+"train_size","gblup",50,0.225,0.323,1.483,0.652,0.057
+"train_size","rrblup",50,0.225,0.323,1.483,0.652,0.057
+"train_size","gblup",100,0.281,0.377,1.465,1.14,0.061
+"train_size","rrblup",100,0.281,0.377,1.465,1.14,0.061
+"train_size","gblup",150,0.335,0.446,1.44,1.175,0.033
+"train_size","rrblup",150,0.335,0.446,1.44,1.175,0.033
+"train_size","gblup",200,0.361,0.513,1.417,1.067,0.028
+"train_size","rrblup",200,0.361,0.513,1.417,1.067,0.028
+"train_size","gblup",240,0.36,0.52,1.437,1.007,0.037
+"train_size","rrblup",240,0.36,0.52,1.437,1.007,0.037
