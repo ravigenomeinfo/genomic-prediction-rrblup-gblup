@@ -30,7 +30,7 @@ normal residuals; entry-mean-like phenotypes without replication or fixed effect
 
 ## Quick start
 ```bash
-git clone https://github.com/YOUR-USERNAME/genomic-prediction-rrblup-gblup.git
+git clone https://github.com/ravigenomeinfo/genomic-prediction-rrblup-gblup.git
 cd genomic-prediction-rrblup-gblup
 Rscript install_packages.R     # rrBLUP, ggplot2, scales, testthat
 Rscript tests/run_tests.R      # unit tests (optional)

@@ -3,8 +3,8 @@ message: "If you use this software, please cite it as below."
 title: "genomic-prediction-rrblup-gblup: a reproducible genomic prediction workflow"
 type: software
 authors:
-  - family-names: "YourLastName"
-    given-names: "YourFirstName"
+  - family-names: "Surname"
+    given-names: "Firstname"
 license: MIT
-repository-code: "https://github.com/YOUR-USERNAME/genomic-prediction-rrblup-gblup"
+repository-code: "https://github.com/ravigenomeinfo/genomic-prediction-rrblup-gblup"
 date-released: "2026-10-24"
