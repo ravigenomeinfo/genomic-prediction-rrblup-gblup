@@ -1,5 +1,5 @@
 # Step 4: fit rrBLUP and GBLUP on ALL lines (descriptive fit, not validation).
-check_repo_root()
+if (!file.exists("config.R")) stop("Run scripts from the repository root (the folder containing config.R).", call. = FALSE)
 source("config.R"); source("R/functions.R")
 
 X <- readRDS("data/processed/X_qc.rds")

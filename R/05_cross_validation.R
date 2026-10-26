@@ -3,7 +3,7 @@
 #   B) accuracy vs training-set size (random training subsets)
 #   C) leave-one-cluster-out CV (predict a genetically distinct group)
 # r_tbv (correlation with true breeding values) exists only because data are simulated.
-check_repo_root()
+if (!file.exists("config.R")) stop("Run scripts from the repository root (the folder containing config.R).", call. = FALSE)
 source("config.R"); source("R/functions.R")
 
 X <- readRDS("data/processed/X_qc.rds")

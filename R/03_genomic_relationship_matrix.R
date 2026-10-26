@@ -1,5 +1,5 @@
 # Step 3: VanRaden genomic relationship matrix, PCA and inferred clusters.
-check_repo_root()
+if (!file.exists("config.R")) stop("Run scripts from the repository root (the folder containing config.R).", call. = FALSE)
 source("config.R"); source("R/functions.R")
 set.seed(config$seed)
 

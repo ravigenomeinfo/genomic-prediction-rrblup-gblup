@@ -1,6 +1,6 @@
 # Step 2: genotype QC (line/SNP missingness, MAF) and mean imputation.
 # QC uses genotypes only (no phenotypes), so it cannot leak phenotype information.
-check_repo_root()
+if (!file.exists("config.R")) stop("Run scripts from the repository root (the folder containing config.R).", call. = FALSE)
 source("config.R"); source("R/functions.R")
 
 X_raw <- as.matrix(read.csv("data/simulated/genotypes_raw.csv", row.names = 1, check.names = FALSE))

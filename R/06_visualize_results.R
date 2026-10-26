@@ -1,5 +1,5 @@
 # Step 6: publication-quality figures (300 dpi PNG).
-check_repo_root()
+if (!file.exists("config.R")) stop("Run scripts from the repository root (the folder containing config.R).", call. = FALSE)
 source("config.R"); source("R/functions.R")
 
 stats   <- read.csv("results/tables/qc_marker_stats.csv")

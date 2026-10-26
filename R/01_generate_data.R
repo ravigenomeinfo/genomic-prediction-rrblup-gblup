@@ -1,6 +1,6 @@
 # Step 1: simulate a maize-like SNP panel and a quantitative trait.
 # ALL DATA ARE SIMULATED. Ground truth is saved separately in truth.csv.
-check_repo_root()
+if (!file.exists("config.R")) stop("Run scripts from the repository root (the folder containing config.R).", call. = FALSE)
 source("config.R"); source("R/functions.R")
 set.seed(config$seed)
 
